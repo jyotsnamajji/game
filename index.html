@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Empire Builder - Ancient Rome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>Empire Builder</h1>
+        <h2>Rise of Ancient Rome</h2>
+
+        <div class="stats">
+            <p>🛡 Military: <span id="military">50</span></p>
+            <p>💰 Economy: <span id="economy">50</span></p>
+            <p>😊 Happiness: <span id="happiness">50</span></p>
+        </div>
+
+        <div class="event-box">
+            <p id="event-text">Welcome, Emperor! Your journey begins.</p>
+        </div>
+
+        <div class="buttons">
+            <button onclick="chooseOption(1)">Option 1</button>
+            <button onclick="chooseOption(2)">Option 2</button>
+        </div>
+
+        <button id="nextBtn" onclick="nextTurn()">Next Turn</button>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
