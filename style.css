@@ -1,0 +1,40 @@
+body {
+    background: #2c1b0f;
+    color: #f4e4c1;
+    font-family: 'Georgia', serif;
+    text-align: center;
+}
+
+.game-container {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background: #4b2e1e;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+}
+
+.stats p {
+    font-size: 18px;
+}
+
+.event-box {
+    margin: 20px 0;
+    padding: 15px;
+    background: #3a2417;
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background: goldenrod;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: darkgoldenrod;
+}
